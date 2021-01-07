@@ -65,7 +65,7 @@ void Racional::Pro(int n1, int d1, int n2, int d2, std::string wri){
 
     std::ofstream file1(wri);
 
-    file1 << "Multiplicación" << (n1*n2) << "/" << (d1*d2) << std::endl;
+    file1 << "Multiplicacion" << (n1*n2) << "/" << (d1*d2) << std::endl;
 
 }
 
